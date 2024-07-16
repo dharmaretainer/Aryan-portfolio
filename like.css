@@ -1,0 +1,19 @@
+span{
+    color: orange;
+}
+h1{
+    top: 20%;
+    
+}
+body{
+    background: linear-gradient( 300deg,orange,white,lightgrey);
+    width: 100vmax;
+    height: 200px;
+}
+.bye-container{
+    display: flex;
+    justify-content: center;
+}
+.bye{
+    filter: drop-shadow(1px 1px 20px orange);
+}

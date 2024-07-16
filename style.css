@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.aryan{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.info{
+    margin-top: 15%;
+    margin-left: 8%;
+}
+.info h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.info p{
+    color: #555;
+    line-height: 12px;
+    font-weight: bold;
+}
+.info a{
+    background: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+
+}
+.info a:hover{
+    color: #eff4fd;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position:absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .boy{
+    left: 45%;
+
+}
+.boy{
+    filter: drop-shadow(1px 1px 20px orange);
+}
+.logo{
+    filter: drop-shadow(1px 1px 20px orange);
+
+}
+.aryan:hover .logo{
+    right: 45%;
+}
+
+@media(max-width:1100px)
+{
+   
+    .info{
+        margin-top: 15%;
+        margin-left: 8%;
+    }
+    .info h1{
+        font-size: 35px;
+        color: #212121;
+        margin-bottom: 10px;
+    }
+    .info h2{
+        font-size: 20px;
+    }
+    span{
+        color: orange;
+    }
+    .info p{
+        color: #555;
+        line-height: 6px;
+        font-weight: bold;
+    }
+    .info a{
+        background: #000;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        color: orange;
+        display: inline-block;
+        margin: 15px 0;
+        border-radius: 2.5px;
+        position:relative;
+    
+    
+    }
+    .info a:hover{
+        color: #eff4fd;
+    }
+    .images{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        
+        top: 50%;
+    }
+    
+    .images img{
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%);
+        transition: bottom 1s, left 1s;
+        width: 80%;
+    }
+    
+}
